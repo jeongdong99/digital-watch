@@ -14,3 +14,7 @@
 - [x] ~~알람 구현~~
 
 ## 🎥영상
+
+
+https://github.com/jeongdong99/digital-watch/assets/93365714/ba4752b3-6671-43d5-8443-9c0a972cb4c0
+
