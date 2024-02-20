@@ -280,7 +280,7 @@ TimerStartButton.addEventListener("click", timerStart);
 
 StopWatchButton.addEventListener("click", stopWatch);
 stopWatchStartBtn.addEventListener("click", stopWatchStart);
-stopWatchStopBtn.addEventListener("click", stop);
+stopWatchStopBtn.addEventListener("click", stopStopWatch);
 stopWatchResetBtn.addEventListener("click", resetStopWatch);
 
 AlarmButton.addEventListener("click", alarm);
