@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StopWatch</title>
-    <link rel="stylesheet" href="styles.css">
-   
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital-Watch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div id="hello"></div>
-        <div class="watch">
-            <div class="outer-circle">
-                <div class="inner-circle">
-                    <span class="text minute" id="minute">0 :</span>
-                    <span class="text sec" id = "sec" >&nbsp; 0 : </span>
-                    <span class="text msec" id ="msec">&nbsp;00 </span>
-                </div>
-            </div>
-            <div class="button-wrapper">
-                <button  class="button" id="start">Start</button>
-                <button class="button" id="stop">Stop</button>
-                <button class="button" id="reset">Reset</button>
-            </div>
+      <div id="hello"></div>
+      <div class="watch">
+        <div class="outer-circle">
+          <div class="inner-circle">
+            <span class="text minute" id="minute">00 :</span>
+            <span class="text sec" id="sec">&nbsp; 00 : </span>
+            <span class="text msec" id="msec">&nbsp;00 </span>
+
+            <input type="time" id="alarmTime" />
+          </div>
         </div>
+        <div class="button-wrapper">
+          <button class="Menu button" id="Timer">Timer</button>
+          <button class="Menu button" id="Stop-watch">Stop watch</button>
+          <button class="Menu button" id="Alarm">Alarm</button>
+
+          <button class="Timer button" id="timer-start">Start</button>
+          <button class="Timer button" id="up">Up</button>
+          <button class="Timer button" id="down">Down</button>
+
+          <button class="StopWatch button" id="StopWatch-start">Start</button>
+          <button class="StopWatch button" id="stop">Stop</button>
+          <button class="StopWatch button" id="reset">Reset</button>
+          
+          <button class="Alarm button" id="setAlarm">Set</button>
+          <button class="Alarm button" id="stopAlarm">Stop</button>
+          <button class="back button" id="back">back</button>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
